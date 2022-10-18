@@ -9,7 +9,7 @@ dec_number = int(input('Введите десятичное число: '))
 
 
 def dec_to_bin_str(number):
-    bin_num = ""
+    bin_num = "" 
     while number > 0:
         bin_num = str(number%2) + bin_num
         number //=2
