@@ -4,29 +4,7 @@
 stroka = 'абвздесь текст, абвкоторый абв не.? содержащий rабвке! этих символов'
 print(stroka)
 
-# вариант 1
-
-# stroka = stroka.replace(" ", "*")
-
-# def add_split2(text):
-#     syntax = [' ', ',', '.', '!', '?', '*']
-#     for arg in syntax:
-#         text = text.replace(arg, f' {arg}')
-#     return text
-
-# def del_words(inp):
-#     string = ''
-#     sym = 'абв'
-#     args = inp.split()
-#     for arg in args:
-#         if sym not in arg:
-#             string += arg
-#     return string
-
-# res_stroka = del_words(add_split2(stroka))
-# print(res_stroka.replace("*", " "))
-
-# Вариант 2
+#
 
 list = [' ',',', '.', '!', '?', '*']
 
